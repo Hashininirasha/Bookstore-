@@ -15,11 +15,21 @@
 </head>
     <body>
     <main>
-        <div class="container">
+        <div class="container text-center">
         <div class="p-3 mb-2 bg-danger text-white">
-            <h1 class="text-center">Book Store 📚🌸</h1>
-            <h5 class="text-center"> Only for Book Lovers ❣</h5>
+            <h1><i class="fas fa-swatchbook"></i>Book Store</h1>
+            <h5 class="text-center"> Only for Book Lovers 📚❤</h5>
             </div>
+        </div>
+        <div class="d-flex justify-content-center">
+            <form action="" method="POST" class="w-50">
+                <div class="py-2">
+                    <div class="input-group mb-3">
+                    <span class="input-group-text" id="basic-addon1">@</span>
+                    <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                    </div>
+                </div>
+            </form>
         </div>
     </main>
 
