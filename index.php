@@ -31,7 +31,7 @@
                     <input type="text" autocomplete="off" placeholder="ID" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
                     </div>
                 </div>
-            </form>
+                </form>
         </div>
     </main>
 
