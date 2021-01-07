@@ -1,5 +1,5 @@
 <?php
-
+require_once("../BOOK_STORE/php/Component.php");
 
 
 ?>
@@ -25,12 +25,17 @@
         </div>
         <div class="d-flex justify-content-center">
             <form action="" method="POST" class="w-50">
-                <div class="py-2">
-                    <div class="input-group mb-3">
-                    <span class="input-group-text bg-info" id="basic-addon1"><i class="fa fa-id-badge" aria-hidden="true"></i></span>
-                    <input type="text" autocomplete="off" placeholder="ID" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
-                    </div>
+            <div class="py-2">
+                <div class="input-group mb-3">
+                <span class="input-group-text bg-info" id="basic-addon1"><i class="fa fa-id-badge" aria-hidden="true"></i></span>
+                <input type="text" autocomplete="off" placeholder="ID" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
                 </div>
+            </div> 
+            <div class="py-2">
+                <?php inputElement(); 
+                ?>
+
+            </div>
                 </form>
         </div>
     </main>
