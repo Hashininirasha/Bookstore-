@@ -37,8 +37,20 @@
                 <input type="text" autocomplete="off" placeholder="Book Name" class="form-control" placeholder="book name" aria-label="bookname" aria-describedby="basic-addon1">
                 </div>
             </div> 
+            <div class="row">
+                <div class="col">
+                <div class="input-group mb-3">
+                <span class="input-group-text bg-info" id="basic-addon1"><i class="fa fa-user" aria-hidden="true"></i></span>
+                <input type="text" autocomplete="off" placeholder="Book Author" class="form-control" placeholder="book author" aria-label="bookauthor" aria-describedby="basic-addon1">
+                </div>
+            </div> 
+            <div class="col">
+                <div class="input-group mb-3">
+                <span class="input-group-text bg-info" id="basic-addon1"><i class="fa fa-calendar" aria-hidden="true"></i></span>
+                <input type="text" autocomplete="off" placeholder="Collection Date" class="form-control" placeholder="add date" aria-label="add date" aria-describedby="basic-addon1">
+                </div>
             
-            
+            </div>
             </form>
         </div>
     </main>
