@@ -1,5 +1,5 @@
 <?php
-require_once("../BOOK_STORE/php/Component.php");
+
 
 
 ?>
@@ -28,21 +28,17 @@ require_once("../BOOK_STORE/php/Component.php");
             <div class="py-2">
                 <div class="input-group mb-3">
                 <span class="input-group-text bg-info" id="basic-addon1"><i class="fa fa-id-badge" aria-hidden="true"></i></span>
-                <input type="text" autocomplete="off" placeholder="ID" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                <input type="text" autocomplete="off" placeholder="Book ID" class="form-control" placeholder="book id" aria-label="User id" aria-describedby="basic-addon1">
                 </div>
             </div> 
             <div class="py-2">
-                <?php 
-                inputElement(icon:"<i class="fa fa-book" aria-hidden="true"></i>",placeholder:"Book ID",name:"Book_id",value:" "); 
-                ?>
-
-            </div>
-            <div class="py-2">
-                <?php 
-                inputElement(icon:"<i class="fa fa-book" aria-hidden="true"></i>",placeholder:"Book Name",name:"Book_name",value:" "); 
-                ?>
-
-            </div>
+                <div class="input-group mb-3">
+                <span class="input-group-text bg-info" id="basic-addon1"><i class="fa fa-book" aria-hidden="true"></i></span>
+                <input type="text" autocomplete="off" placeholder="Book Name" class="form-control" placeholder="book name" aria-label="bookname" aria-describedby="basic-addon1">
+                </div>
+            </div> 
+            
+            
             </form>
         </div>
     </main>

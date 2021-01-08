@@ -1,6 +1,6 @@
 <?php
 
-function inputElement($icon,$placeholder,$name,$value){
+function inputElement(){
     $ele="
     <div class=\"py-2\">
         <div class=\"input-group mb-3\">
