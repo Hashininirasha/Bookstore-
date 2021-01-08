@@ -32,11 +32,18 @@ require_once("../BOOK_STORE/php/Component.php");
                 </div>
             </div> 
             <div class="py-2">
-                <?php inputElement(); 
+                <?php 
+                inputElement(icon:"<i class="fa fa-book" aria-hidden="true"></i>",placeholder:"Book ID",name:"Book_id",value:" "); 
                 ?>
 
             </div>
-                </form>
+            <div class="py-2">
+                <?php 
+                inputElement(icon:"<i class="fa fa-book" aria-hidden="true"></i>",placeholder:"Book Name",name:"Book_name",value:" "); 
+                ?>
+
+            </div>
+            </form>
         </div>
     </main>
 
@@ -46,8 +53,4 @@ require_once("../BOOK_STORE/php/Component.php");
 
 
     </body>
-
-
-
-
 </html>
