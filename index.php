@@ -1,5 +1,5 @@
 <?php
-
+require_once("../BOOK_STORE/php/Component.php");
 
 
 ?>
@@ -50,6 +50,10 @@
                 <input type="text" autocomplete="off" placeholder="Collection Date" class="form-control" placeholder="add date" aria-label="add date" aria-describedby="basic-addon1">
                 </div>
             
+            </div>
+            <div class="d-felx">
+                <?php button()
+
             </div>
             </form>
         </div>
