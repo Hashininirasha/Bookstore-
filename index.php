@@ -56,11 +56,14 @@ require_once("../BOOK_STORE/php/Component.php");
                 </div>
             
             </div>
-            <div class="d-flex py-2">
-            <div class="btn-group btn-group-toggle" data-toggle="buttons">
-            <button type="button" class="btn btn-info">Add 📚</button>
-
-            </div>
+            <div class="d-flex">
+                
+                    <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                    <button type="button" class="btn btn-info">Add 📚</button>
+                    </div>
+                    <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                    <button type="button" class="btn btn-info">Refresh ⏳</button>
+                </div>     
             </form>
         </div>
     </main>
