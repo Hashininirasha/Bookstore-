@@ -6,6 +6,11 @@ require_once("../BOOK_STORE/php/Component.php");
 <!doctype html>
 <html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+    content="width=device-width,user-scalable=no,initial-scale=1.0,maximum-scale=1.0,minimun-scale=1.0"
+    >
+    <meta http-equiv='X-UA-Compatible' content="ie=edge">
     <title>
         Book Store
     </title>
@@ -51,8 +56,8 @@ require_once("../BOOK_STORE/php/Component.php");
                 </div>
             
             </div>
-            <div class="d-felx">
-                <?php button()
+            <div class="d-flex">
+                <?php button(btnid:"btn",styleclass:"btn btn-success",text:"Add",name:"add"); ?>
 
             </div>
             </form>
