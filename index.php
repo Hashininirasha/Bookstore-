@@ -63,7 +63,13 @@ require_once("../BOOK_STORE/php/Component.php");
                     </div>
                     <div class="btn-group btn-group-toggle" data-toggle="buttons">
                     <button type="button" class="btn btn-info">Refresh ⏳</button>
-                </div>     
+                    </div>
+                    <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                    <button type="button" class="btn btn-info">Edit ✒</button>
+                    </div> 
+                    <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                    <button type="button" class="btn btn-info">Delete </button>
+                    </div>      
             </form>
         </div>
     </main>
