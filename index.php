@@ -1,4 +1,7 @@
+<?php
+    require_once("../Book_Store/php/Component,php");
 
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
