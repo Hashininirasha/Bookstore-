@@ -78,8 +78,11 @@
             </form>
         </div>
         <!--Bootstrap Table-->
+        <div class="container text-center">
         <div class="d-flex table-data">
         <table class="table table-striped table-dark">
+        
+        
             <thead>
             <tr>
                 <th scope="col">ID</th>
@@ -90,6 +93,8 @@
             </tr>
             </thead>
         </table>
+        
+        </div>
         </div>
     </div>
     </main>
