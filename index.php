@@ -45,7 +45,7 @@
                 <input type="text" autocomplete="off" placeholder="Book Name" class="form-control" placeholder="book name" aria-label="bookname" aria-describedby="basic-addon1">
                 </div>
             </div> 
-            <div class="row">
+            <div class="row py-2">
                 <div class="col">
                 <div class="input-group mb-3">
                 <span class="input-group-text bg-info" id="basic-addon1"><i class="fa fa-user" aria-hidden="true"></i></span>
@@ -60,7 +60,7 @@
             
             </div>
             </div>
-            <div class="d-flex justify-content-between">
+            <div class="d-flex justify-content-between py-2">
                 
                     <div class="btn-group btn-group-toggle" data-toggle="buttons">
                     <button type="button" class="btn btn-info">Add 📚</button>
@@ -79,7 +79,7 @@
         </div>
         <!--Bootstrap Table-->
         <div class="container text-center">
-        <div class="d-flex table-data">
+        <div class="d-flex table-data py-2">
         <table class="table table-striped table-dark">
         
         
