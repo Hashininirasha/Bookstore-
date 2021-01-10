@@ -1,4 +1,8 @@
-.d-sm-flex{
-    margin-right: 8rem;
-    padding-right: 8rem;
-}
+h1 {
+    text-align: center;
+    font-size: 12pt;
+    color: #000099;
+    margin-bottom: 5px;
+    text-decoration: underline
+    }
+    
