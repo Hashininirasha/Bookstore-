@@ -1,12 +1,11 @@
-<?php
-require_once("../BOOK_STORE/php/Component.php");
 
-
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <link rel="stylesheet" href="style.css">
+    <style>
+        
+    </style>
     <meta charset="UTF-8">
     <meta name="viewport"
     content="width=device-width,user-scalable=no,initial-scale=1.0,maximum-scale=1.0,minimun-scale=1.0">
@@ -24,7 +23,7 @@ require_once("../BOOK_STORE/php/Component.php");
 
 </head>
     <body>
-    <h1>The 2018 Top Programming Languages</h1>
+    
     <main>
         <div class="container text-center">
         <div class="p-3 mb-2 bg-danger text-white">

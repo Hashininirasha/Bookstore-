@@ -1,9 +1,7 @@
-<?php
 
-function button ($btnid,$styleclass,$text,$name,$attr){
+function buttonElement ($btnid,$styleclass,$text,$name,$attr){
     $btn="
-    <button name='$name'class='$styleclass' id='$btnid'>$text</button>
+    <button name='$name' '$attr' class='$styleclass' id='$btnid'>$text</button>
     ";
     echo $btn;
 }
-?>
