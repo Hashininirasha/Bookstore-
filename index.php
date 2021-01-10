@@ -74,6 +74,18 @@ require_once("../BOOK_STORE/php/Component.php");
             </div>     
             </form>
         </div>
+        <!--Bootstrap Table-->
+        <table class="table table-striped table-dark">
+            <thead>
+            <tr>
+                <th scope="col">ID</th>
+                <th scope="col">Book Name</th>
+                <th scope="col">Author</th>
+                <th scope="col">Collection Date</th>
+                <th scope="col">Edit</th>
+            </tr>
+            </thead>
+        </table>
     </main>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
