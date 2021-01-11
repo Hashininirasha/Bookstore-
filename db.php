@@ -17,6 +17,12 @@ function createdb(){
 //create databse
 	$sql="CREATE DATABSE IF NOT EXISTS $dbname";
 
+	if(mysqli_query($con, $sql)){
+		echo "Database Created..";
+	}else{
+		echo "Error while Creating database".mysqli_error($con); 
+	}
+
 
 }
 ?>
