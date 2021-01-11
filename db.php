@@ -14,6 +14,9 @@ function createdb(){
 	if(!$con){
 		die("Connection Failed :".mysqli_connect_error());
 	}
+//create databse
+	$sql="CREATE DATABSE IF NOT EXISTS $dbname";
+
 
 }
 ?>
