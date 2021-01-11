@@ -92,6 +92,15 @@
                 <th scope="col">Edit</th>
             </tr>
             </thead>
+            <thead>
+            <tr>
+                <td scope="col">1</th>
+                <td scope="col">Madol Duwa</th>
+                <td scope="col">Mr.Martin Wikramasinghe</th>
+                <td scope="col">02.01.2021</th>
+                <td scope="col"><i class="fa fa-pencil" aria-hidden="true"></i></th>
+            </tr>
+            </thead>
         </table>
         
         </div>
