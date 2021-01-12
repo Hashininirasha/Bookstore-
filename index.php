@@ -1,3 +1,5 @@
+<?php include'db.php'; ?>
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -25,6 +27,7 @@
     <body>
     
     <main>
+    <h1>hash</h1>
         <div class="container text-center">
         <div class="p-3 mb-2 bg-danger text-white">
             <h1><i class="fas fa-swatchbook"></i>Book Store</h1>
