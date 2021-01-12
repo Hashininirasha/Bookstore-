@@ -18,7 +18,17 @@
 	$sql="CREATE DATABSE IF NOT EXISTS $dbname";
 
 	if(mysqli_query($con, $sql)){
-		$con=mysqli_connect($servername, $username, $password);
+		$con=mysqli_connect($servername, $username, $password, $dbname);
+
+		$sql="
+				CREATE TABLE IF NOT EXISTS books(
+						id INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+						book_name VARCHAR(30) NOT NULL,
+						author VARCHAR(30) NOT NULL,
+						date VARCHAR(30) NOT NULL,
+						 
+					);
+		"
 	}else{
 		echo "Error while Creating database".mysqli_error($con); 
 	
