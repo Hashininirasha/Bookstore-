@@ -8,7 +8,7 @@
 
 
 //create connection
-	$con=mysqli_connect($servername, $username, $password, $dbname);
+	$con=mysqli_connect($servername, $username, $password);
 
 //check connection
 	if(!$con){
@@ -18,7 +18,7 @@
 	$sql="CREATE DATABSE IF NOT EXISTS $dbname";
 
 	if(mysqli_query($con, $sql)){
-		echo "Database Created..";
+		$con=mysqli_connect($servername, $username, $password);
 	}else{
 		echo "Error while Creating database".mysqli_error($con); 
 	
