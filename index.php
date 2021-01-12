@@ -6,7 +6,9 @@
 <head>
     <link rel="stylesheet" href="style.css">
     <style>
-        
+        .fa-pencil{
+            color:white;
+        }
     </style>
     <meta charset="UTF-8">
     <meta name="viewport"
@@ -27,7 +29,6 @@
     <body>
     
     <main>
-    
         <div class="container text-center">
         <div class="p-3 mb-2 bg-danger text-white">
             <h1><i class="fas fa-swatchbook"></i>Book Store</h1>

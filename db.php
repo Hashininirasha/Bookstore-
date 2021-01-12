@@ -1,6 +1,6 @@
 <?php
 
-function createdb(){
+
 	$servername="localhost";
 	$username="root";
 	$password="";
@@ -21,7 +21,7 @@ function createdb(){
 		echo "Database Created..";
 	}else{
 		echo "Error while Creating database".mysqli_error($con); 
-	}
+	
 
 
 }
