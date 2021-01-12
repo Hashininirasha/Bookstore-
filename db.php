@@ -28,7 +28,12 @@
 						date VARCHAR(30) NOT NULL,
 						 
 					);
-		"
+		";
+		if(mysqli_query($con,$sql)){
+			echo "Table Created";
+		}else{
+			echo "Can't create a table";
+		}
 	}else{
 		echo "Error while Creating database".mysqli_error($con); 
 	
